@@ -26,6 +26,7 @@ test:
   imports:
     - securesystemslib
   requires:
+    - python {{ python_min }}
     - pip
   commands:
     - pip check
